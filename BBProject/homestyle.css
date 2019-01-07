@@ -1,0 +1,131 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+header 
+{
+	height: 100vh;
+	background-image: url(loginback.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+body
+{
+	font-family: monospace;
+}
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+.hero
+{
+	position: absolute;
+	width: 650px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+h1.wel
+{
+	width: auto;
+	color: white;
+	text-transform: uppercase;
+	font-size: 90px;
+	text-align: center;
+	margin-top: 245px;
+}
+h1.donate
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 25px;
+}
+.button
+{
+	width: 1200px;
+	margin-top: 120px;
+	margin-left: 540px;
+}
+
+.btn
+{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 13px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.btn-one
+{
+	font-family: "robotto", sans-serif;
+}
+.btn:hover
+{
+	background-color: darkorange;
+	transition: all 0.5s ease-in;
+.btn-two
+{
+	font-family: "Roboto", sans-serif;
+}
+
+.def
+{
+	border: 1px solid #665544;
+	background-color: #ababab;
+	padding: 5px;
+}
+
+.aims
+{
+	border: 1px solid #665544;
+	background-color: #ababab;
+	padding: 5px;
+}
